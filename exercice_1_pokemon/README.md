@@ -33,6 +33,7 @@ db.Pokemons.find({
   ]
 })
 ```
+![fire](./images/fire.png)
 
 2. Récupérez les informations du Pokémon nommé "Pikachu".
 
@@ -53,6 +54,8 @@ db.Pokemons.updateOne({
     {$set: {'Max CP': 900}
 })
 ```
+![cp900](./images/maxcp900.png)
+
 ## Exercice 5: Suppression d'Éléments
 
 **Objectif :** Supprimer un Pokémon de la base de données.
@@ -66,6 +69,7 @@ db.Pokemons.deleteOne(
   { "Name": "Bulbasaur" }
 )
 ```
+![delete](./images/delete_bulbasaur.png)
 
 ## Validation
 
